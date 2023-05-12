@@ -20,7 +20,7 @@
           class="space cursor-pointer z-50 flex-col justify-center items-center flex pt-4 px-8 rounded-md text-purple-800 transform duration-150 ease-in hover:text-white hover:scale-105"
         >
         <!-- DON T FORGET TO CHANGE THE IMG -->
-          <img src="assets/images/Power bandw.jpg" alt="" />
+          
         </nuxt-link>
         <nuxt-link to="/">
           <button>
