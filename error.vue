@@ -23,7 +23,7 @@
           
         </nuxt-link>
         <nuxt-link to="/">
-          <button>
+          <button class="boutton_error">
             Retour a l'accueil
           </button>
         </nuxt-link>
@@ -41,6 +41,17 @@ export default {
 
 <style scopped>
 
+.boutton_error{
+ 
+  border: rgb(247, 247, 247) solid 1px;
+  padding: 15px;
+}
+.boutton_error:hover{
+  color: rgb(0, 0, 0);
+  background-color: rgba(240, 248, 255, 0.374);
+}
+
+.boutton_error
 
 .space img {
   -webkit-animation: mover 2s ease-in-out infinite alternate;
