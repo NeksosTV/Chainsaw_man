@@ -10,10 +10,7 @@ export default ({
         //'~/assets/css/main.css',
         // fichier SCSS dans notre projet
         '~/assets/css/main.scss',
-        '~/assets/css/footer.scss',
-        '~/assets/css/carrousel.scss',
-        '~/assets/css/about.scss',
-        '~/assets/css/contact.scss',
+        '~/assets/css/footer.scss'
         
       ],
       modules: ['@nuxtjs/tailwindcss'],

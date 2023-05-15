@@ -1,5 +1,5 @@
 <template>
-        <link rel="stylesheet" href="~assets/css/carrousel.scss">
+        <!-- <link rel="stylesheet" href="~assets/css/carrousel.scss"> -->
 <div class="carousel-wrapper">
   <div class="carousel-container">
     <div class="carousel">
@@ -19,3 +19,127 @@
 
 
 
+
+
+<style lang="scss" scoped>
+$size-width: 1519px;
+$size-height: 500px;
+
+.carousel-wrapper {
+  width: $size-width;
+  height: $size-height * 1.2;
+  //display: flex;
+  //justify-content: center;
+  //align-items: center;
+  //box-shadow: 5px 5px 25px 0px rgba(46, 61, 73, 0.2);
+  //border-radius: 20px;
+ // margin: 100px auto 20px;
+ 
+}
+
+.carousel-container {
+  width: $size-width;
+  height: $size-height;
+  overflow: hidden;
+  margin: 0 auto;
+  
+}
+
+.carousel {
+  display: flex;
+  width: $size-width * 3;
+  animation: sliding 12s infinite;
+
+ 
+  
+  div {
+    width: $size-width;
+    height: $size-height ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  // &:hover {
+  //   animation-play-state: paused;
+  // }
+  .image-one {
+    background-image: url("assets/images/55722-Power-Chainsaw-ManPower-Chainsaw-Man-HD-Wallpaper.jpg");
+    background-size: cover;
+}
+  .image-two {
+    background-image: url("assets/images/chainsaw-man-episode-7.png");
+    background-size: cover;
+}
+  .image-three {
+    background-image: url("assets/images/Power bandw.jpg");
+    background-size: cover;
+  }
+}
+
+@keyframes sliding {
+  30% {
+    transform: translateX(0);
+  }
+  35% {
+    transform: translateX(-$size-width);
+  }
+  65% {
+    transform: translateX(-$size-width);
+  }
+  70% {
+    transform: translateX(-$size-width * 2);
+  }
+  98% {
+    transform: translateX(-$size-width * 2);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  $size-width: 240px;
+  $size-height: 150px;
+  .carousel-wrapper {
+    width: $size-width * 1.3;
+    height: $size-height * 1.4;
+  }
+
+  .carousel-container {
+    width: $size-width;
+    height: $size-height;
+  }
+
+  .carousel {
+    width: $size-width * 3;
+     div {
+      width: $size-width;
+      height: $size-height;
+    }
+  }
+
+  @keyframes sliding {
+    30% {
+      transform: translateX(0);
+    }
+    35% {
+      transform: translateX(-$size-width);
+    }
+    65% {
+      transform: translateX(-$size-width);
+    }
+    70% {
+      transform: translateX(-$size-width * 2);
+    }
+    98% {
+      transform: translateX(-$size-width * 2);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+
+
+</style>
