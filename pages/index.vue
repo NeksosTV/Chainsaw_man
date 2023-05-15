@@ -66,10 +66,6 @@ margin: 50px;
 padding: 50px;
 }
 
-
-
-
-
 .carousel-wrapper {
   width: $size-width;
   height: $size-height * 1.2;
