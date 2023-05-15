@@ -71,7 +71,7 @@ $size-height: 500px;
     background-size: cover;
 }
   .image-three {
-    background-image: url("assets/images/Power bandw.jpg");
+    background-image: url("assets/images/Power_bandw.jpg");
     background-size: cover;
   }
 }
