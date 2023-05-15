@@ -1,5 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNuxtConfig({
+export default ({
+  target: 'static', // default is 'server'
+  ssr: false,
   
     css: [
         // charge un module Node.js directement (ici c'est un fichier SASS)
@@ -12,6 +14,7 @@ export default defineNuxtConfig({
         '~/assets/css/carrousel.scss',
         '~/assets/css/about.scss',
         '~/assets/css/contact.scss',
+        
       ],
       modules: ['@nuxtjs/tailwindcss'],
 })
