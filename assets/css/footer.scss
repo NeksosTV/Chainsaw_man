@@ -1,13 +1,16 @@
 $primary-color: #EEB314;
 $secondary-color: #C65803;
 
-
+.title_nav_footer{
+  // text-decoration: underline;
+  font-size: 3em;
+}
 
 footer {
   background-color: $primary-color;
   color: $secondary-color;
   padding: 20px;
-  
+
 
 
   .footer-container {
@@ -16,7 +19,7 @@ footer {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    
+    height: 250px;
     
     .logo {
         
@@ -49,6 +52,11 @@ footer {
         
         a {
           color: $secondary-color;
+          text-decoration: none;
+        }
+
+        a:hover {
+          color: black;
           text-decoration: none;
         }
       }

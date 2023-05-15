@@ -7,7 +7,8 @@
       <h3>Titre du footer</h3>
     </div> -->
     <ul class="menu-nav">
-        <h3>PowerUp</h3>
+        <h3 class="title_nav_footer">PowerUp</h3>
+        <br>
       <li>
         <NuxtLink to="/">Accueil</NuxtLink>
       </li>
