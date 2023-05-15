@@ -1,5 +1,4 @@
 <template>
-        <!-- <link rel="stylesheet" href="~assets/css/carrousel.scss"> -->
 <div class="carousel-wrapper">
   <div class="carousel-container">
     <div class="carousel">
@@ -10,20 +9,66 @@
   </div>
 </div>
     
-    <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium labore placeat perferendis nihil modi ipsum odio. Veniam animi doloremque odit laboriosam ullam, ducimus praesentium? Numquam ut ex culpa hic doloribus.
-    Quam, provident iure magnam vero iusto in dolorem sed rem. Quibusdam error fugiat ullam repellat quia totam porro, quidem, nihil modi enim, sint nam vel maiores harum voluptas? Beatae, velit.
-    Id, veniam magnam molestias fuga maxime cumque nesciunt totam atque expedita officia at harum quaerat blanditiis culpa architecto vero alias inventore eaque eligendi nemo? Possimus exercitationem ex optio quod praesentium!
-    A voluptate assumenda, quia cumque amet molestias dolor nulla eius rerum eaque? Modi esse quasi consequatur vel tempora enim nobis numquam. Rerum est similique pariatur in consequatur libero voluptatum adipisci.
-    Nisi recusandae sunt dolores asperiores quibusdam cum eos similique? Possimus officiis expedita molestias pariatur perspiciatis necessitatibus? Quis maxime eveniet inventore nisi obcaecati? Eum illum nemo, quasi unde consequuntur quos eligendi.</h2>
+
+<div class="parent">
+  <h2 class="sub__title_episode">Dernier Episode</h2>
+  <p class="p__episode">Katana VS Tronconneuse</p>
+  <p class="chacha">chapitre</p>
+  <p class="nbr_episode">35 - 36 - 37 - 38</p>
+  <div class="div1">
+<img class="img__main" src="~assets/images/Chainsaw-Man-episode-12-1600x900.jpg" alt="">
+  </div>
+</div>
+
+
+
 </template>
-
-
-
-
 
 <style lang="scss" scoped>
 $size-width: 1519px;
 $size-height: 500px;
+$color : white;
+
+
+.nbr_episode{
+  left: 50px;
+  position: absolute;
+  margin-left: 550px;
+  margin-top: 200px;
+  font-size: 30px;
+}
+.chacha{
+  left: 50px;
+  position: absolute;
+  margin-left: 550px;
+  margin-top: 150px;
+  font-size: 25px;
+}
+
+.sub__title_episode{
+  color: $color;
+  font-size: 25px;
+}
+.p__episode{
+  font-size: 5em;
+}
+
+.img__main{
+  height:auto;
+  width: 450px;
+  margin-top: 5px;
+  position: relative;
+  top:90px
+}
+.parent {
+background-color: #EEB314;
+margin: 50px;
+padding: 50px;
+}
+
+
+
+
 
 .carousel-wrapper {
   width: $size-width;
