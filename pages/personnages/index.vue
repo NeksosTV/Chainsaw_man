@@ -16,7 +16,7 @@
 </div>
 </template>
 
-<style>
+<style lang="scss">
 .sub_title{
      position: absolute;
      font-size: 80px;
@@ -56,7 +56,7 @@
 
 }
 
-.pagination a:hover:not(.active) {background-color:  #EEB314;} */
+.pagination a:hover:not(.active) {background-color:  #EEB314;} 
 
 .link{
     background-color: #EEB314;
