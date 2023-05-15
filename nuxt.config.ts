@@ -1,3 +1,5 @@
+
+const config = {}
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default ({
   target: 'static', // default is 'server'
@@ -12,5 +14,8 @@ export default ({
         
       ],
       modules: ['@nuxtjs/tailwindcss'],
+
+      
 })
+
 

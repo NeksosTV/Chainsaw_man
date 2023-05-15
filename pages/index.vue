@@ -1,4 +1,5 @@
 <template>
+ 
 <div class="carousel-wrapper">
   <div class="carousel-container">
     <div class="carousel">
@@ -14,7 +15,7 @@
   <h2 class="sub__title_episode">Dernier Episode</h2>
   <p class="p__episode">Katana VS Tronconneuse</p>
   <p class="chacha">chapitre</p>
-  <p class="nbr_episode">35 - 36 - 37 - 38</p>
+  <p class="nbr_episode">35 - 36 - 37 - 38 - 40</p>
   <div class="div1">
 <img class="img__main" src="~assets/images/Chainsaw-Man-episode-12-1600x900.jpg" alt="">
   </div>
