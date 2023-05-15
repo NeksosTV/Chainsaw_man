@@ -1,8 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default ({
   target: 'static', // default is 'server'
-  ssr: false,
-  
     css: [
         // charge un module Node.js directement (ici c'est un fichier SASS)
         //'bulma',
