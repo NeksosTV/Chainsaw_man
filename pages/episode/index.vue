@@ -1,7 +1,7 @@
 <template>
     <main>
       <div class="main__container">
-        <h2 class="main__container__subtitle subtitle">épisode 1</h2>
+        <h2 class="main__container__subtitle subtitle">épisode |</h2>
         <h2 class="main__container__title title">le chien et la tronçonneuse</h2>
         
         <h3 class="main__container__subsubtitle subsubtitle">Chapitres 1</h3>
@@ -13,7 +13,7 @@
       </div>
       
       <div class="main__container2">
-        <h2 class="Subtitle2">épisode 11</h2>
+        <h2 class="Subtitle2">épisode ||</h2>
         <h2 class="Sub">arrivée a Tokyo</h2>
         <h3 class="main__container2__subsubtitle">
           Chapitres 2-3-4-5
@@ -31,6 +31,8 @@
 </div>
     </main>
   </template>
+
+
   <style scoped lang="scss">
   .main {
     &__container {
